@@ -10,9 +10,9 @@
 
 export WD="/rsgrps/bhurwitz/scottdaniel/bacteria-bowtie/genomes/combined"
 
-export FASTA="$WD/combined.fa"
+export COMBFASTA="$WD/combined.fa"
 
-export GFF="$WD/combined.gff"
+export COMBGFF="$WD/combined.gff"
 
 
 PRJ_DIR="/rsgrps/bhurwitz/scottdaniel/extract-fasta"
