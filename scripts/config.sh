@@ -8,12 +8,17 @@
 # --------------------------------------------------
 
 
-export WD="/rsgrps/bhurwitz/scottdaniel/bacteria-bowtie/genomes/combined"
+export COMB="/rsgrps/bhurwitz/scottdaniel/bacteria-bowtie/genomes/combined"
 
-export COMBFASTA="$WD/combined.fa"
+export COMBFASTA="$COMB/combined.fa"
 
-export COMBGFF="$WD/combined.gff"
+export COMBGFF="$COMB/combined.gff"
 
+export KNOWN="/rsgrps/bhurwitz/scottdaniel/bacteria-bowtie/genomes/all/bowtie2_index"
+
+export KNFASTA="$KNOWN/all.fa"
+
+export KNGFF="$KNOWN/all-PATRIC-CDS.gff"
 
 PRJ_DIR="/rsgrps/bhurwitz/scottdaniel/extract-fasta"
 #
